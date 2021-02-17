@@ -10,7 +10,7 @@ namespace HomeTask1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Представьтесь пожалуйста!");
+            Console.WriteLine("Представьтесь, пожалуйста!");
             string name = Console.ReadLine();
             DateTime thisDay = DateTime.Now;
             Console.WriteLine($"Приветствую, {name}! Сегодня {thisDay.ToString("D")}");
